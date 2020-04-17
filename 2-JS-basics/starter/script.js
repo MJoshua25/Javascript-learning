@@ -1,3 +1,8 @@
+/* ****************
+* Variables and data types
+*/
+
+/*
 var firstName = 'John';
 console.log(firstName);
 
@@ -12,5 +17,10 @@ console.log(job);
 
 job = 'Teacher';
 console.log(job);
+*/
 
 // single line comment
+
+/***********************
+* variable mutation and data type coertion
+*/
