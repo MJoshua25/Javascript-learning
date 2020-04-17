@@ -108,3 +108,13 @@ x += 10;
 console.log(x);
 x++; // x = x+1
 */
+
+/***********************
+* If / else statements
+*/
+
+var firstName = 'John';
+var civilStatus = 'single';
+if (civilStatus === 'married'){
+    console.log(firstName + ' is married');
+}
