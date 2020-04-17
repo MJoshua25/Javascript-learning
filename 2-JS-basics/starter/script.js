@@ -120,3 +120,10 @@ if (civilStatus === 'married'){
 } else {
     console.log(firstName + ' will hopefully marry sonn :)');
 }
+
+var isMarried = true;
+if (isMarried){
+    console.log(firstName + ' is married');
+} else {
+    console.log(firstName + ' will hopefully marry sonn :)');
+}
