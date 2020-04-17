@@ -2,6 +2,7 @@
 * Coding Challenge 1
 */
 
+/*
 var heightJohn, heightMark, massJohn, massMark, bmiJohn, bmiMark, isMarkBmiHigher;
 
 heightJohn = parseFloat(prompt('Quelle est la taille de John ?'));
@@ -13,4 +14,6 @@ bmiJohn = massJohn / (heightJohn * heightJohn);
 bmiMark = massJohn / (heightJohn * heightJohn);
 
 isMarkBmiHigher = bmiMark >= bmiJohn;
-console.log("Mark a t'il un plus haut BMI: " +isMarkBmiHigher)
+console.log("Mark a t'il un plus haut BMI: " +isMarkBmiHigher);
+
+*/
