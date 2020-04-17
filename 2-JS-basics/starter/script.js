@@ -127,3 +127,19 @@ if (isMarried){
 } else {
     console.log(firstName + ' will hopefully marry sonn :)');
 }
+
+var heightJohn, heightMark, massJohn, massMark, bmiJohn, bmiMark, isMarkBmiHigher;
+
+heightJohn = parseFloat(prompt('Quelle est la taille de John ?'));
+massJohn = parseInt(prompt('Quelle est le poids de John ?'));
+heightMark = parseFloat(prompt('Quelle est la taille de Mark ?'));
+massMark = parseInt(prompt('Quelle est le poids de Mark ?'));
+
+bmiJohn = massJohn / (heightJohn * heightJohn);
+bmiMark = massJohn / (heightJohn * heightJohn);
+
+if (bmiMark > bmiJohn){
+    console.log("Mark BMI is higher than John");
+} else {
+    console.log("John BMI is higher than Mark");
+}
