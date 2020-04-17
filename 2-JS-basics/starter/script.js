@@ -51,3 +51,8 @@ console.log(firstName + ' ' + lastName);
 /***********************
 * Basic operators
 */
+var year, yearJohn, yearMark;
+year = 2020;
+yearJohn = year - 28;
+yearMark = year - 33;
+console.log(yearJohn);
