@@ -79,5 +79,12 @@ console.log(typeof x);
 */
 
 /***********************
-* Basic operators
+* operators precedence
 */
+
+var now =2018;
+var yearJohn = 1989;
+var fullAge = 18;
+
+var isFullAge = now - yearJohn >= fullAge;
+console.log(isFullAge);
