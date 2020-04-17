@@ -51,13 +51,13 @@ console.log(firstName + ' ' + lastName);
 /***********************
 * Basic operators
 */
-var now, yearJohn, yearMark, ageJhon, ageMark;
+var now, yearJohn, yearMark, ageJohn, ageMark;
 now = 2020;
-ageJhon = 28;
+ageJohn = 28;
 ageMark = 33;
 
 // Math operators
-yearJohn = now - ageJhon;
+yearJohn = now - ageJohn;
 yearMark = now - ageMark;
 console.log(yearJohn);
 
@@ -66,3 +66,5 @@ console.log(now * 2);
 console.log(now / 2);
 
 // Logical operators
+var johnOlder = ageJohn > ageMark;
+console.log(johnOlder)
