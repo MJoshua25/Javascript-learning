@@ -24,3 +24,9 @@ console.log(job);
 /***********************
 * variable mutation and data type coertion
 */
+var firstName = 'John';
+var age = 28;
+
+console.log(firstName + ' ' + age);
+
+
