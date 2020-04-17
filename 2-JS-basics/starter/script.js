@@ -12,3 +12,5 @@ console.log(job);
 
 job = 'Teacher';
 console.log(job);
+
+// single line comment
