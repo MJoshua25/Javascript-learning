@@ -24,6 +24,6 @@ console.log("Mark a t'il un plus haut BMI: " +isMarkBmiHigher);
 
 var johnTeamPointAverage, mikeTeamPointAverage, maryTeamPointAverage;
 
-johnTeamPointAverage = (89 + 120 + 103)/3;
+johnTeamPointAverage = ( 89 + 120 + 103 )/3;
 mikeTeamPointAverage = ( 116 + 94 + 123 )/3;
 maryTeamPointAverage = ( 97 + 134 + 105 )/3;
