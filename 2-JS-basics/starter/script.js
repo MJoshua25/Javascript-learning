@@ -169,6 +169,7 @@ if (age < 13) {
 * The ternary Operator and Switch Statements
 */
 
+/*
 var firstName = 'John';
 var age = 16;
 
@@ -208,3 +209,8 @@ switch (true) {
     default:
         console.log(firstName + ' is a man.');
 }
+*/
+
+/***********************
+* Truthy and Falsy values and equality operators
+*/
