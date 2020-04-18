@@ -283,7 +283,7 @@ var whatDoYouDo = function (job, firstName) {
         default:
             return firstName + ' does something else';
     }
-}
+};
 
 console.log(whatDoYouDo('teacher', 'John'));
 console.log(whatDoYouDo('designer', 'Jane'));
