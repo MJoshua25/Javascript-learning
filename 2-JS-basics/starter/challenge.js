@@ -27,3 +27,17 @@ var johnTeamPointAverage, mikeTeamPointAverage, maryTeamPointAverage;
 johnTeamPointAverage = ( 89 + 120 + 103 )/3;
 mikeTeamPointAverage = ( 116 + 94 + 123 )/3;
 maryTeamPointAverage = ( 97 + 134 + 105 )/3;
+
+switch (true) {
+    case johnTeamPointAverage > mikeTeamPointAverage && johnTeamPointAverage > maryTeamPointAverage:
+        console.log("John's team win");
+        break;
+    case mikeTeamPointAverage > johnTeamPointAverage && mikeTeamPointAverage > maryTeamPointAverage:
+        console.log("Mike's team win");
+        break;
+    case maryTeamPointAverage > johnTeamPointAverage && maryTeamPointAverage > mikeTeamPointAverage:
+        console.log("Mike's team win");
+        break;
+    default:
+        console.log('Draw');
+}
