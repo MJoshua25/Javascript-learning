@@ -22,6 +22,7 @@ console.log("Mark a t'il un plus haut BMI: " +isMarkBmiHigher);
 * Coding Challenge 2
 */
 
+/*
 var johnTeamPointAverage, mikeTeamPointAverage, maryTeamPointAverage;
 
 johnTeamPointAverage = ( 89 + 120 + 103 )/3;
@@ -41,3 +42,4 @@ switch (true) {
     default:
         console.log('Draw');
 }
+*/
