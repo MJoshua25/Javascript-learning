@@ -150,6 +150,7 @@ if (bmiMark > bmiJohn){
 * Boolean logic
 */
 
+/*
 var firstName = 'John';
 var age = 16;
 if (age < 13) {
@@ -161,3 +162,10 @@ if (age < 13) {
 } else {
     console.log(firstName + ' is a man.');
 }
+*/
+
+
+/***********************
+* The ternary Operator and Switch Statements
+*/
+
