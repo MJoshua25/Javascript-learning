@@ -31,13 +31,13 @@ maryTeamPointAverage = ( 97 + 134 + 105 )/3;
 
 switch (true) {
     case johnTeamPointAverage > mikeTeamPointAverage && johnTeamPointAverage > maryTeamPointAverage:
-        console.log("John's team win");
+        console.log("John's team win with : " + johnTeamPointAverage + "points");
         break;
     case mikeTeamPointAverage > johnTeamPointAverage && mikeTeamPointAverage > maryTeamPointAverage:
-        console.log("Mike's team win");
+        console.log("Mike's team win with : " + mikeTeamPointAverage + "points");
         break;
     case maryTeamPointAverage > johnTeamPointAverage && maryTeamPointAverage > mikeTeamPointAverage:
-        console.log("Mike's team win");
+        console.log("Mike's team win : " + maryTeamPointAverage + "points");
         break;
     default:
         console.log('Draw');
