@@ -238,3 +238,10 @@ if (height == '23'){
 /***********************
 * Function
 */
+
+function calculateAge(birthYear) {
+    return 2020 - birthYear;
+}
+
+var ageJohn = calculateAge(1990);
+console.log(ageJohn);
