@@ -182,6 +182,7 @@ console.log(drink);
 var job = 'teacher';
 switch (job) {
     case "teacher":
+    case "instructor":
         console.log(firstName + ' teaches kids how to code.');
         break;
     case "driver":
