@@ -220,8 +220,10 @@ switch (true) {
 
 var height;
 
+height = 23;
+
 if (height){
     console.log('Variable is defined');
 } else {
-    console.log('Variable has Not been defined')
+    console.log('Variable has Not been defined');
 }
