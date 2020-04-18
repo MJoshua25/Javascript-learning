@@ -239,6 +239,7 @@ if (height == '23'){
 * Function
 */
 
+/*
 function calculateAge(birthYear) {
     return 2020 - birthYear;
 }
@@ -262,3 +263,8 @@ function yearsUntilRetirement(year, firstName) {
 yearsUntilRetirement(1990, 'John');
 yearsUntilRetirement(1948, 'Mike');
 yearsUntilRetirement(1969, 'Jane');
+*/
+
+/***********************
+* Function Statement and Expressions
+*/
