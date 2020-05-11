@@ -306,3 +306,16 @@ console.log(names.length);
 names[1] = 'Ben';
 names[names.length] = 'Mary';
 console.log(names);
+
+// Different data types
+var john = ['John', 'Smith', 1990, 'teacher', false];
+
+john.push('blue');
+john.unshift('Mr.')
+console.log(john)
+
+john.pop()
+john.shift()
+console.log(john)
+
+console.log(john.indexOf(23));
