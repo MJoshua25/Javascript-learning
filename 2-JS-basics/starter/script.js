@@ -324,3 +324,8 @@ console.log(john.indexOf(23));
 var isDesigner = john.indexOf('designer') === -1 ? 'John is Not a designer' : "John is a designer";
 console.log(isDesigner);
 */
+
+
+/***********************
+* Objects and properties
+*/
