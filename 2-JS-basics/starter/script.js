@@ -272,6 +272,7 @@ yearsUntilRetirement(1969, 'Jane');
 // function whatDoYouDo(job, firstName) {}
 
 // Function expression
+/*
 var whatDoYouDo = function (job, firstName) {
     switch (job) {
         case 'teacher':
@@ -288,3 +289,9 @@ var whatDoYouDo = function (job, firstName) {
 console.log(whatDoYouDo('teacher', 'John'));
 console.log(whatDoYouDo('designer', 'Jane'));
 console.log(whatDoYouDo('retired', 'Mike'));
+*/
+
+/***********************
+* Arrays
+*/
+
