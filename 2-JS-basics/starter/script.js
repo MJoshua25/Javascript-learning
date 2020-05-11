@@ -300,3 +300,7 @@ var years = new Array(1990, 1969, 1948);
 
 console.log(names[2]);
 console.log(names.length);
+
+names[1] = 'Ben';
+names[names.length] = 'Mary';
+console.log(names);
