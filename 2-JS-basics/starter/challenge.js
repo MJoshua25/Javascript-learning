@@ -43,3 +43,22 @@ switch (true) {
         console.log('Draw');
 }
 */
+
+/*************************************
+* Coding Challenge 3
+*/
+
+var tipCalculator = function (bill) {
+    if(bill<50)
+        return 0.2 * bill
+    else if (bill>= 50 && bill<=200)
+        return 0.15 * bill
+    else
+        return 0.1 * bill
+}
+
+var tips = [tipCalculator(124), tipCalculator(48), tipCalculator(268)]
+var finalPaid = [tips[0] + 124, tips[1] + 48, tips[2] + 268]
+
+console.log(tips)
+console.log(finalPaid)
