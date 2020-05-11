@@ -47,7 +47,7 @@ switch (true) {
 /*************************************
 * Coding Challenge 3
 */
-
+/*
 var tipCalculator = function (bill) {
     if(bill<50)
         return 0.2 * bill
@@ -62,3 +62,4 @@ var finalPaid = [tips[0] + 124, tips[1] + 48, tips[2] + 268]
 
 console.log(tips)
 console.log(finalPaid)
+*/
