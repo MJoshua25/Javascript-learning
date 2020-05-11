@@ -308,7 +308,7 @@ names[names.length] = 'Mary';
 console.log(names);
 
 // Different data types
-var john = ['John', 'Smith', 1990, 'teacher', false];
+var john = ['John', 'Smith', 1990, 'designer', false];
 
 john.push('blue');
 john.unshift('Mr.')
@@ -319,3 +319,6 @@ john.shift()
 console.log(john)
 
 console.log(john.indexOf(23));
+
+var isDesigner = john.indexOf('designer') === -1 ? 'John is Not a designer' : "John is a designer";
+console.log(isDesigner)
